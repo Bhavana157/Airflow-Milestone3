@@ -1,0 +1,14 @@
+{"timestamp":"2026-03-18T20:03:01.610860Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-18T20:03:01.613564Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-18T20:03:01.634586Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/pipeline_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-03-18T20:03:01.671576Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-18T20:03:01.672173Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-18T20:03:01.673053Z","level":"info","event":"Current task name:load","logger":"task.stdout"}
+{"timestamp":"2026-03-18T20:03:01.673828Z","level":"info","event":"Dag name:etl_pipeline_final","logger":"task.stdout"}
+{"timestamp":"2026-03-18T20:03:01.675488Z","level":"info","event":"Starting Load Task","logger":"root","filename":"pipeline_dag.py","lineno":53}
+{"timestamp":"2026-03-18T20:03:01.691960Z","level":"info","event":"✅ Data Loaded Successfully","logger":"root","filename":"pipeline_dag.py","lineno":57}
+{"timestamp":"2026-03-18T20:03:01.705402Z","level":"info","event":"\n   Education  JoiningYear  ... ExperienceInCurrentDomain  LeaveOrNot\n0  Education         2017  ...                       0.0           0\n1  Education         2013  ...                       3.3           1\n2  Education         2014  ...                       2.2           0\n3  Education         2016  ...                       5.5           1\n4  Education         2017  ...                       2.2           1\n\n[5 rows x 9 columns]","logger":"root","filename":"pipeline_dag.py","lineno":58}
+{"timestamp":"2026-03-18T20:03:01.707266Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-18T20:03:01.730925Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-18T20:03:01.731434Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-18T20:03:01.731940Z","level":"info","event":"Task operator:<Task(PythonOperator): load>","logger":"task.stdout"}

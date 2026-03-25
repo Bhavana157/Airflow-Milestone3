@@ -7,7 +7,7 @@ import logging
 
 # 🔹 Default arguments
 default_args = {
-    'owner': 'bhavana',
+    'owner': 'ownername',
     'start_date': datetime(2024, 1, 1),
     'retries': 1,
     'retry_delay': timedelta(minutes=1)
@@ -15,9 +15,9 @@ default_args = {
 
 # 🔹 Reusable Email Function
 def send_email(subject, body):
-    sender = "pendyalabhavana15@gmail.com"
-    receiver = "pendyalabhavana15@gmail.com"
-    password = "zflycttmidlzbxpb"   # ⚠️ Use env variable in real projects
+    sender = "yourmailid@gmail.com"
+    receiver = "yourmailid@gmail.com"
+    password = "AppPassword"   # ⚠️ Use env variable in real projects
 
     message = f"Subject: {subject}\n\n{body}"
 
